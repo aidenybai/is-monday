@@ -1,0 +1,22 @@
+# Packages
+node_modules/
+yarn.lock
+package-lock.json
+
+# Deploy
+docs/
+test/
+.github/
+
+# License
+LICENSE.txt
+
+# Typescript
+tsconfig.json
+tslint.json
+
+# Other
+.npmrc
+.gitignore
+.gitattributes
+.eslintrc.json
