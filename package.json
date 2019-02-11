@@ -1,0 +1,34 @@
+{
+  "name": "is-monday",
+  "version": "0.0.1",
+  "description": "Checks if it is monday.",
+  "main": "./src/index",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint src *.js",
+    "lint:fix": "eslint --fix src",
+    "lint:typings": "tslint typings/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cringiest/is-monday.git"
+  },
+  "keywords": ["monday", "util", "fun"],
+  "author": "Aiden Bai <mail.contraband@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cringiest/is-monday/issues"
+  },
+  "homepage": "https://github.com/cringiest/is-monday",
+  "devDependencies": {
+    "@types/node": "^10.7.1",
+    "eslint": "^5.4.0",
+    "tslint": "^5.11.0",
+    "tslint-config-typings": "^0.3.1",
+    "typescript": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
